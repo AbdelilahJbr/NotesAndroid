@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#00BBA8">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:id="@+id/title"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:background="#008577"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenu"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#FFFFFF"/>
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="6dp"
+        android:background="#008577"
+        android:textColor="#FFFFFF"
+        android:gravity="left"/>
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modifier"
+        android:background="#008577"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

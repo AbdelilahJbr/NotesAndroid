@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#00BBA8">
+
+    <Button
+        android:id="@+id/noteButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Notes"
+        android:background="#008577"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Listes"
+        android:background="#008577"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/corbeilleButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Corbeille"
+        android:background="#008577"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Rechercher"
+        android:background="#008577"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
