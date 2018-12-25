@@ -30,10 +30,10 @@ public class ListeActivity extends AppCompatActivity {
         if (liste != null){
             title.setText(liste.title);
             item1.setText(liste.item1);
-            item1.setText(liste.item2);
-            item1.setText(liste.item3);
-            item1.setText(liste.item4);
-            item1.setText(liste.item5);
+            item2.setText(liste.item2);
+            item3.setText(liste.item3);
+            item4.setText(liste.item4);
+            item5.setText(liste.item5);
         }
         else{
             Toast.makeText(this, "Liste not found", Toast.LENGTH_SHORT).show();

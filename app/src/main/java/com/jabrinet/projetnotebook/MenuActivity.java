@@ -13,8 +13,8 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         Button notebutton = findViewById(R.id.noteButton);
         Button listbutton = findViewById(R.id.listButton);
-        /*Button corbeillebutton = findViewById(R.id.corbeilleButton);
-        Button searchbutton = findViewById(R.id.searchButton);*/
+        Button corbeillebutton = findViewById(R.id.corbeilleButton);
+        /*Button searchbutton = findViewById(R.id.searchButton);*/
 
         notebutton.setOnClickListener(v -> {
             startActivity(new Intent(this,NotesActivity.class));
@@ -24,11 +24,11 @@ public class MenuActivity extends AppCompatActivity {
             startActivity(new Intent(this,ListesActivity.class));
         });
 
-        /*corbeillebutton.setOnClickListener(v -> {
-            startActivity(new Intent(this,CorbeilleActivity.class));
+        corbeillebutton.setOnClickListener(v -> {
+            startActivity(new Intent(this,TrashsActivity.class));
         });
 
-        searchbutton.setOnClickListener(v -> {
+        /*searchbutton.setOnClickListener(v -> {
             startActivity(new Intent(this,SearchActivity.class));
         });*/
     }

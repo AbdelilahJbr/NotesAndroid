@@ -14,7 +14,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
-        android:text="Title"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="20dp"
@@ -26,7 +25,6 @@
 
     <TextView
         android:id="@+id/item1"
-        android:text="item1 item1 item1 item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -41,7 +39,6 @@
 
     <TextView
         android:id="@+id/item2"
-        android:text="item1 item1 item1 item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -56,7 +53,6 @@
 
     <TextView
         android:id="@+id/item3"
-        android:text="item1 item1 item1 item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -71,7 +67,6 @@
 
     <TextView
         android:id="@+id/item4"
-        android:text="item1 item1 item1 item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
@@ -86,7 +81,6 @@
 
     <TextView
         android:id="@+id/item5"
-        android:text="item1 item1 item1 item1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"

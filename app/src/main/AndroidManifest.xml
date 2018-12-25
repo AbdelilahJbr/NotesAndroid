@@ -24,7 +24,8 @@
         <activity android:name=".ListesActivity" />
         <activity android:name=".ListeActivity" />
         <activity android:name=".AddListeActivity" />
-        <activity android:name=".editListeActivity"></activity>
+        <activity android:name=".editListeActivity" />
+        <activity android:name=".TrashsActivity" />
     </application>
 
 </manifest>
