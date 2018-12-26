@@ -30,7 +30,7 @@ public interface NoteDAO {
     @Query("UPDATE Note SET titre = :title, content = :content WHERE id = :id")
     void modifyNote(int id, String title, String content);
 
-    @Query("SELECT * FROM Note WHERE content LIKE :key OR titre LIKE :key")
+    @Query("SELECT * FROM Note WHERE content LIKE :key OR titre LIKE :key AND isDeleted = 0")
     List<Note> searchedNotes(String key);
 
 }
